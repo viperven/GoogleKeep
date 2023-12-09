@@ -10,6 +10,7 @@ addToLS = () => {
   localStorage.setItem("notes", JSON.stringify(notesArray));
 };
 addNewNote = (text) => {
+  alert("hey");
   let notes = document.createElement("div");
   notes.classList.add("note-area");
 
@@ -54,4 +55,5 @@ boxValue.forEach((curElm) => {
 });
 
 btnAdd.addEventListener("click", () => addNewNote());
+btnAdd.addEventListener('touchstart',  () => addNewNote());
 //final
