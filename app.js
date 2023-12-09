@@ -9,7 +9,7 @@ addToLS = () => {
   });
   localStorage.setItem("notes", JSON.stringify(notesArray));
 };
-addNewNote = ('text) => {
+addNewNote = (text) => {
   alert("hello");
   let notes = document.createElement("div");
   notes.classList.add("note-area");
