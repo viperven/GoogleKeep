@@ -54,3 +54,4 @@ boxValue.forEach((curElm) => {
 });
 
 btnAdd.addEventListener("click", () => addNewNote());
+//final
