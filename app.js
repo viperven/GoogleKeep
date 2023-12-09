@@ -1,5 +1,5 @@
 const btnAdd = document.getElementById("add");
-
+document.body.style.backgroundColor = "red";
 addToLS = () => {
   let notesArray = [];
   let notes = document.querySelectorAll("#txtarea");
@@ -9,7 +9,8 @@ addToLS = () => {
   });
   localStorage.setItem("notes", JSON.stringify(notesArray));
 };
-addNewNote = (text) => {
+addNewNote = ('text) => {
+  alert("hello);
   let notes = document.createElement("div");
   notes.classList.add("note-area");
 
