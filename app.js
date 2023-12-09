@@ -1,3 +1,4 @@
+alert("hello");
 const addButton = document.getElementById("add");
 
 //ADDIND DATA IN LOCAL STORAGE;
