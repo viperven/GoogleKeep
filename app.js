@@ -55,4 +55,5 @@ boxValue.forEach((curElm) => {
 });
 
 btnAdd.addEventListener("click", () => addNewNote());
+btnAdd.addEventListener("touchstart", () => addNewNote();
 //final
